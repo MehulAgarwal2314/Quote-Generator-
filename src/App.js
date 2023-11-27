@@ -10,7 +10,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   const fetchRandomQuote = () => {
-    fetch('https://quote-api-cd991d0b5085.herokuapp.com/')
+    fetch('https://quotes-ar6b.onrender.com/')
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
